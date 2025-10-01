@@ -26,5 +26,6 @@ jobs:
       - name: Run tests
         run: python -m pytest tests/test_unit
       - name: Run behave
-        run: behave tests/test_functional/features
-
+        run: behave tests/test_functional/features/
+      - name: qualite
+        run: python -m pytest --cov=formation_indus_ds_avancee/ tests/test_unit/ -vv -p no:warnings
