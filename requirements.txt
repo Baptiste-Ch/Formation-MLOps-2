@@ -1,3 +1,7 @@
+# Tests
+flake8
+vulture
+
 # Data manipulation
 pandas==2.1.4
 pyarrow==15.0.2
