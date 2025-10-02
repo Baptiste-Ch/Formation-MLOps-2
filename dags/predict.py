@@ -26,8 +26,8 @@ def predict():
     # predict = PythonOperator()
     # End completing predict task
 
-    # feature_path = prepare_features_with_io_task()
-    # predict_with_io_task(feature_path=feature_path)
+    feature_path = prepare_features_with_io_task()
+    predict_with_io_task(feature_path=feature_path)
 
 
 predict_dag = predict()
